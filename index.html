@@ -10,7 +10,7 @@
         
         .navbar {
             position: fixed;
-            top: 0;
+            top: 0px;
             right: 0;
             height: 70px;
             width: 100%;
@@ -30,7 +30,7 @@
         }
         
         .navbar a:first-child {
-            margin-left: 0;
+            margin-left: 50px;
         }
         
         .navbar a:hover {
@@ -51,19 +51,16 @@
     <style>
         .div1 img {
             width: 50%;
-            height: 50%;
+            height: 10%;
             object-fit: cover;
-            <div class="section">
-        <div class="div1">
-          
-        </div>
-        <div class="div2"></div>
+            
+  
     }
         .section {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 200px;
+            margin: 50px;
             
         
 
@@ -83,25 +80,25 @@
         .div1 .resume-button:hover {
             background-color: #555;
         }
+        .image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;}
+
     </style>
-</head>
-<body>
-    <div class="section">
-        <div class="div1">
-            <img src="path_to_image.jpg" alt="Image">
-            <a href="path_to_resume.pdf" class="resume-button">Resume</a>
-        </div>
-        <div class="div2"></div>
+
             
-
-
-    </style>
 </head>
 <body>
-    <div class="section">
-        <div class="div1">
-        <div class="div2"> <img src="https://images.squarespace-cdn.com/content/v1/648eb13265728852ce1b7384/33c7a7af-7917-4445-a5d4-02a52f90df31/248365674_4791764657500519_4480783024370110793_n.jpg?format=750w" alt="Hero Image">
-            ME.jpg <p>Hello, I am a UX/UI designer with a background as a visual designer. I specialize in research and branding. My passion for UX UI design comes from my creative mind that likes facing new challenges that will bring positive outcomes. I love to research and learn about almost everything. I am focused on providing user experiences that help people solve real-world problems. My skills include Figma, Miro, and InVision.</p>
+    <div class="image-container">
+        <img src="https://images.squarespace-cdn.com/content/v1/648eb13265728852ce1b7384/ca633b46-74e8-4ed2-94b2-adb7474b2bda/Magdalena+%281%29.png?format=1500w" alt="Image 1">
+        <img src="https://images.squarespace-cdn.com/content/v1/648eb13265728852ce1b7384/33c7a7af-7917-4445-a5d4-02a52f90df31/248365674_4791764657500519_4480783024370110793_n.jpg?format=750w" alt="Image 2">
+      </div>
+      
+        <div class="div2"></div>
+      <div class="hero">Hello, I am a UX/UI designer with a background as a visual designer. I specialize in research and branding. My passion for UX UI design comes from my creative mind that likes facing new challenges that will bring positive outcomes. I love to research and learn about almost everything. I am focused on providing user experiences that help people solve real-world problems. My skills include Figma, Miro, and InVision.</p></div>
+
+      </div><p>
         </div>
         <head>
             <style>
@@ -109,13 +106,14 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    height: 400px;
+                    height: 50px;
+                    padding: 60px;
                     background-color: #f1f1f1;
                 }
         
                 .hero img {
-                    max-width: 100%;
-                    max-height: 100%;
+                    max-width: 10%;
+                    max-height: 10%;
                 }
             </style>
         </head>
@@ -130,8 +128,38 @@
               <button>Skills</button>
               <button>Work</button>
               <button>Contact</button>
+              
             </div>
+            <div class="section">
+                <div class="div1">
+                  
+                    <a href="path_to_resume.pdf" class="resume-button">Resume</a>
+                </div>
           </footer>
+          <style>footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+          }
+          
+          .footer-buttons button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            background-color: #373738;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+          }
+          
+          .footer-buttons button:hover {
+            background-color: #373738;
+          }
+          </style>
+          
+          
     </body>
 </html>
 
