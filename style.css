@@ -3,6 +3,7 @@ body {
     padding: 20px;
     font-family: Arial, sans-serif;
 }
+
 .navbar {
     position: fixed;
     top: 0px;
@@ -22,13 +23,14 @@ body {
     color: #ebe7e7;
     font-weight: bold;
 }
-
 .navbar a:first-child {
     margin-left: 50px;
 }
 
 .navbar a:hover {
     background-color: #ddd;
+
+
 }
 .div1 img {
     width: 50%;
@@ -98,7 +100,7 @@ footer {
 .flexContainer {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 h1{
@@ -106,7 +108,8 @@ h1{
     text-align: center;
 }
 section {
-    text-align: center;
+    text-align: left;
+    padding: 20px;
     
 
 }
@@ -131,7 +134,6 @@ section {
         "project1 project1-details"
         "project2 project2-details"
         "project3 project3-details";
-    gap: 20px;
 }
 
 .project1 {
@@ -157,12 +159,9 @@ section {
 .project3-details {
     grid-area: project3-details;
 }
-.project3-details {align-items: center;}
 
 /* Add your responsive CSS styles here */
-@media (max-width: 768px) {
-    
-    .image-container img {
+@media (max-width: 768px) {.image-container img {
         max-width: 100%;
         height: auto;
     }
@@ -179,10 +178,6 @@ section {
     .flexContainer > div {
         width: 100%;
     }
-    
-    .workGrid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
     }
-}
+    
+    
