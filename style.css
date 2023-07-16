@@ -1,3 +1,51 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #0c0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+.navbar a {
+    display: block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ebe7e7;
+    font-weight: bold;
+}
+
+.navbar a:first-child {
+    margin-left: 50px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+}
+.div1 img {
+    width: 50%;
+    height: 10%;
+    object-fit: cover;
+    
+
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+
+
+}
 .hero {
     display: flex;
     justify-content: center;
@@ -6,3 +54,100 @@
     padding: 60px;
     background-color: #f1f1f1;
 }
+
+.div1 .resume-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.div1 .resume-button:hover {
+    background-color: #555;
+}
+.image-container {
+display: flex;
+justify-content: center;
+margin-top: 200px;}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .footer-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #373738;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .footer-buttons button:hover {
+    background-color: #555;}
+/* Skills Section.*/
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+section {
+    text-align: center;
+    
+
+}
+/* Grids Section.*/
+.workGrid {
+    display: grid;
+    grid-template-areas:
+        "project1 project1-details"
+        "project2 project2-details"
+        "project3 project3-details";
+    gap: 20px;
+}
+
+.project1 {
+    grid-area: project1;
+}
+
+.project1-details {
+    grid-area: project1-details;
+}
+
+.project2 {
+    grid-area: project2;
+}
+
+.project2-details {
+    grid-area: project2-details;
+}
+
+.project3 {
+    grid-area: project3;
+}
+
+.project3-details {
+    grid-area: project3-details;
+}
+.project3-details {align-items: center;}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      flex-direction: column;
+    }
+  }
