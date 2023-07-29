@@ -55,6 +55,10 @@ body {
     height: 50px;
     padding: 60px;
     background-color: #f1f1f1;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+      
 }
 
 .div1 .resume-button {
