@@ -1,32 +1,33 @@
 .sideBarSection{
-    margin: 50px 100px;
+  margin: 50px 100px;
 }
 
 .contentSection{
-    margin: 0 100px;
+  margin: 0 100px;
 }
 
 .mainImage{
   width: 60%;
 }
-
-.mockupmob {flex-direction: row; width: 50%;}
+.mockupmob {
+  flex-direction: row; 
+  width: 50%;
+}
 
 .ideation-design {
-  margin: 50px 100px
+margin: 50px 100px
 }
 .usability-testing-findings{ 
-  margin: 50px 100px;
+margin: 50px 100px;
 }
-  
+
 .interactive-prototype{ 
-  margin: 50px 100px;
+margin: 50px 100px;
 }
 .complete-case-study{
-  margin: 50px 100px;
+margin: 50px 100px;
 }
 .complete-case-study{
-  margin: 50px 100px
+margin: 50px 100px
 }
 .img {row-gap: 20px;}
-
