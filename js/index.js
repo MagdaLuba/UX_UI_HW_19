@@ -32,3 +32,13 @@ $(document).ready(function(){
       $(this).find(".toggleContainer").toggleClass("active");
       $(this).siblings(".toggle").find(".toggleContainer").removeClass("active");
     });
+  
+    $( "li" ).hover(
+      function() {
+    
+      }, function() {});
+     
+    $( "li.fade" ).hover(function() {
+      $( this ).fadeOut( 100 );
+      $( this ).fadeIn( 500 );
+    });

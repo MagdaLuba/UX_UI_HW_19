@@ -184,4 +184,21 @@ section {
     }
     }
     .w3-btn {width:150px;}
+    /*mocro interactions*/
     
+/* CSS Hero Sectionhover */
+.image-container {
+    display: flex;
+    justify-content: space-between;}
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  li {
+    cursor: default;
+  }
